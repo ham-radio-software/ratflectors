@@ -1,0 +1,27 @@
+---
+ratflectors:
+  - name: ae5he
+    description: 'El Paso, Texas'
+    hostname: ae5he.ham-radio-op.net
+    port: 9000
+    active: true
+  - name: k3pdr
+    description: Philadelphia Digital Radio Association
+    hostname: k3pdr.dstargateway.org
+    port: 9000
+    active: true
+  - name: sewx
+    description: Southeastern Weather Net
+    hostname: sewx.ratflector.com
+    port: 9000
+    active: true
+  - name: StTammany
+    description: St Tammany Louisiana
+    hostname: sttammany.ratflector.com
+    port: 9000
+    active: true
+  - name: pldares
+    description: Paulding County ARES West Metro Atlanta
+    hostname: pldares.ratflector.com
+    port: 9000
+    active: true

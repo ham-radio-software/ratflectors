@@ -1,0 +1,19 @@
+---
+name: Codespell
+
+# Always run on Pull Requests
+on:  # yamllint disable-line rule:truthy
+  pull_request:
+    branches:
+      - main
+      - master
+
+jobs:
+  codespell:
+    name: Run Codespell
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Run check
+        uses: codespell-project/actions-codespell@master
