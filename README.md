@@ -2,8 +2,8 @@
 
 Known Public Ratflectors for D-Rats use
 
-This is a YAML file that is planned to be used to assist in managing
-maintaining Internet Ratflector lists for D-Rats.
+This is a YAML file that is planned to be used to assist in configuring
+the Internet Ratflector lists for D-Rats.
 
 This file is maintained in [YAML](https://yaml.org/spec/) format
 
@@ -18,8 +18,10 @@ Each entry has the following members:
 An optional password member is if a password is needed.  The password
 should not be stored in this file.
 
-Advanced maintainers can copy the tests/pre-commit script to .git/hooks which if the proper tools are installed, will test the format of the files in a
-git commit action.  This requires shellcheck, yamllint, and codespell to be installed.
+Advanced maintainers can copy the tests/pre-commit script to .git/hooks which
+if the proper tools are installed, will test the format of the files in a
+git commit action.  This requires shellcheck, yamllint, and codespell to be
+installed.
 
 ```yaml
 ---
