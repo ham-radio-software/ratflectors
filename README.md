@@ -1,11 +1,11 @@
 # Public Ratflectors
 
-Known Public Ratflectors for D-Rats use
+Known Public Ratflectors for D-Rats use.
 
 This is a YAML file that is planned to be used to assist in configuring
 the Internet Ratflector lists for D-Rats.
 
-This file is maintained in [YAML](https://yaml.org/spec/) format
+This file is maintained in [YAML](https://yaml.org/spec/) format.
 
 Each entry has the following members:
 
