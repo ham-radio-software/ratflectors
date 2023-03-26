@@ -18,10 +18,10 @@ Each entry has the following members:
 An optional password member is if a password is needed.  The password
 should not be stored in this file.
 
-Advanced maintainers can copy the tests/pre-commit script to .git/hooks which
-if the proper tools are installed, will test the format of the files in a
-git commit action.  This requires shellcheck, yamllint, and codespell to be
-installed.
+Advanced maintainers can copy the tests/pre-commit script to inside of the
+.git/hooks directory which if the proper tools are installed, will test the
+format of the files in a git commit action.  This requires shellcheck,
+yamllint, and codespell to be installed.
 
 ```yaml
 ---
