@@ -25,3 +25,13 @@ ratflectors:
     hostname: pldares.ratflector.com
     port: 9000
     active: true
+  - name: gaares
+    description: Georgia ARES
+    hostname: gaares.ratflector.com
+    port: 9000
+    active: true
+  - name: gwinnettares
+    description: Gwinnett County ARES NE Metro Atlanta
+    hostname: gwinnettares.ratflector.com
+    port: 9000
+    active: true
