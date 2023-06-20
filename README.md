@@ -1,11 +1,11 @@
 # Public Ratflectors
 
-Known Public Ratflectors for D-Rats use
+Known Public Ratflectors for D-Rats use.
 
-This is a YAML file that is planned to be used to assist in managing
-maintaining Internet Ratflector lists for D-Rats.
+This is a YAML file that is planned to be used to assist in configuring
+the Internet Ratflector lists for D-Rats.
 
-This file is maintained in [YAML](https://yaml.org/spec/) format
+This file is maintained in [YAML](https://yaml.org/spec/) format.
 
 Each entry has the following members:
 
@@ -18,13 +18,21 @@ Each entry has the following members:
 An optional password member is if a password is needed.  The password
 should not be stored in this file.
 
-Advanced maintainers can copy the tests/pre-commit script to .git/hooks which if the proper tools are installed, will test the format of the files in a
-git commit action.  This requires shellcheck, yamllint, and codespell to be installed.
+An optional webpage member for looking up information on the Ratflector.
+
+An optional contact information, recommend replacing @ in email addresses with #.
+
+Advanced maintainers can copy the tests/pre-commit script to inside of the
+.git/hooks directory which if the proper tools are installed, will test the
+format of the files in a git commit action.  This requires shellcheck,
+yamllint, and codespell to be installed.
 
 ```yaml
 ---
 ratflectors:
   - name: short_name
+    webpage: https://maintainer-of-ratflector.example.com
+    contact: 'contact#example.com'
     description: |
       Long description of the Ratflector that can take
       multiple lines, including contact information if known.
